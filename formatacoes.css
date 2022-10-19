@@ -1,0 +1,65 @@
+#cabecalho{
+    font-family: cursive; 
+    font-size: 20px;
+}
+
+ h1,h3{
+    text-align: center;
+}
+
+nav a{
+     text-transform: uppercase;
+    color:#000000;
+    font-weight:bold;
+    font-size:20px;
+    text-decoration:none;
+	
+}
+nav a:hover{
+	color:#aa5698;
+	text-decoration: underline;
+    font-size:20px;
+}
+
+#conteudo1{
+    display: inline-block; 
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;
+    padding-left: 46px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+img{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#produtos{
+    border-style: solid;
+    padding: 25px; 
+    padding-top: 5px;
+    border-color: #850955; 
+    display: inline-block; 
+    text-align: center;
+}
+
+#conteudo2{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+#circulo{
+    border-radius: 50%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#rodape{
+    background-image: linear-gradient(#c79bb6, #f1bcd8); 
+    text-align: center; 
+}

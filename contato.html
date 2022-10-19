@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="validador.js"></script>
+    <meta name="Jéssica Oliveira">
+    <title>Cherry Store</title>
+    <link rel="stylesheet" href="formatacoes.css">
+    <h1>Cherry Store</h1>
+</head>
+
+<body background="fundo3.jpg">
+    <header>
+    <div id="cabecalho">
+        <img src="logotipo.jpg" id="circulo">
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Início</b></a></li>
+                <li><a href="quem-somos.html"><b>Quem Somos</b></a></li>
+                <li><a href="contato.html"><b>Contato</b></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <h1 id="titulo">Formulário de Contato</h1>
+    <div id="conteudo">
+        <form name="formulario">
+            <fieldset>
+                <legend>
+                    <h3>Contatos</h3>
+                </legend>
+                <label>
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <br /><br />
+                    <label>E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <input type="submit" name="entrar" placeholder="Entrar">
+                    <br /><br />
+                    <label>Telefone</label>
+                    <input type="text" name="numero" id="numero" placeholder="Número">
+                    <br><br>
+                    <label>Cidade:</label>
+                    <select>
+                        <option value="RJ">Nova Iguaçu</option>
+                        <option value="SP">Santo André</option>
+                        <option value="MG">Belo Horizonte</option>
+                        <option value="BA">Salvador</option>
+                        <option value="PR">Curitiba</option>
+                    </select>
+                    <br><br>
+                    <label>Estado:</label>
+                    <label>UF</label>
+                    <select name="estado" value="UF">
+                        <option value="RJ">RJ</option>
+                        <option value="SP">SP</option>
+                        <option value="MG">MG</option>
+                        <option value="BA">BA</option>
+                        <option value="PR">PR</option>
+                    </select>
+                    <br><br>
+                    <label>Idade</label>
+                    <input id="date" type="date">
+                    <br><br>
+                    <label>Sexo:</label>
+                    <input type="radio" name="sexo" value="Feminino" />Feminino
+                    <input type="radio" name="sexo" value="Masculino" checked="checked" />Masculino
+                    <br><br>
+                    <label>Motivo do contato</label><br>
+                    <textarea name="txtmensagem" row="10" id="motivo" cols="50"
+                        placeholder="Motivo do contato"></textarea>
+                    <select id="option">
+                        <option value="Dúvida">Dúvida</option>
+                        <option value="Elogio">Elogio</option>
+                        <option value="Sugestão">Sugestão</option>
+                        <option value="Outro">Outros..</option>
+                        <br><br>
+                    </select>
+                    <br><br>
+                    <label>Mensagem</label><br>
+                    <textarea name="textarea" row="10" cols="50" id="mensagem"   placeholder="Mensagem"></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar" onclick="validar()">
+                    <input type="reset" value="Cancelar">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <br><br>
+    <footer>
+        <h3>Nossas Redes Sociais ♡</h3>
+        <img src="logo-social.png" width="180" height="180">
+        <h3 id="rodape">©Copyright Cherry Store-2021♡</h3>
+    </footer>
+</body>
+
+</html>
